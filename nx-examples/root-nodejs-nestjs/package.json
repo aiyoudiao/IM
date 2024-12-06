@@ -1,0 +1,13 @@
+{
+  "name": "@root-nodejs-nestjs/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nx/node": "19.6.2",
+    "@nx/workspace": "19.6.2",
+    "nx": "19.6.2"
+  }
+}
