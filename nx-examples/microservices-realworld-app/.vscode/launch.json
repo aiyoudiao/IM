@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "name": "Debug feature user",
+      "type": "node",
+      "request": "attach",
+      "port": 57741
+    },
+    {
+      "name": "Debug feature atricle",
+      "type": "node",
+      "request": "attach",
+      "port": 57781
+    },
+    {
+      "name": "Debug feature tag",
+      "type": "node",
+      "request": "attach",
+      "port": 57761
+    },
+    {
+      "name": "Debug feature profile",
+      "type": "node",
+      "request": "attach",
+      "port": 57721
+    },
+    {
+      "name": "Debug gateway",
+      "type": "node",
+      "request": "attach",
+      "port": 57821
+    },
+  ]
+}

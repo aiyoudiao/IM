@@ -1,0 +1,591 @@
+{
+	"info": {
+		"_postman_id": "24c7abff-3c22-4e65-a928-ee37f6219d2b",
+		"name": "realworld",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "create user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"momo14@gmail.com\",\n    \"password\": \"momo14\",\n    \"username\": \"momo14\"    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3334/api/user",
+							"host": [
+								"localhost"
+							],
+							"port": "3334",
+							"path": [
+								"api",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"momo14@gmail.com\",\n    \"password\": \"momo141415\",\n    \"username\": \"momo14\"    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3334/api/user/users",
+							"host": [
+								"localhost"
+							],
+							"port": "3334",
+							"path": [
+								"api",
+								"user",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user by id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"momo14@gmail.com\",\n    \"password\": \"momo141415\",\n    \"username\": \"momo14\"    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3334/api/user/6042c157075e6b42ddca0ee6",
+							"host": [
+								"localhost"
+							],
+							"port": "3334",
+							"path": [
+								"api",
+								"user",
+								"6042c157075e6b42ddca0ee6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user by username",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"momo14@gmail.com\",\n    \"password\": \"momo141415\",\n    \"username\": \"momo14\"    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3334/api/user/username/momo14",
+							"host": [
+								"localhost"
+							],
+							"port": "3334",
+							"path": [
+								"api",
+								"user",
+								"username",
+								"momo14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user by email",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"momo14@gmail.com\",\n    \"password\": \"momo141415\",\n    \"username\": \"momo14\"    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3334/api/user/email/momo14@gmail.com",
+							"host": [
+								"localhost"
+							],
+							"port": "3334",
+							"path": [
+								"api",
+								"user",
+								"email",
+								"momo14@gmail.com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update user",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vbW8xNEBnbWFpbC5jb20iLCJzdWIiOiI2MTc1NDFjMGQ2OGQyYjVmY2ZhM2RlZGIiLCJpYXQiOjE2MzUwNzQ1NDEsImV4cCI6MTYzNTE2MDk0MX0.JT-ndJggGot3tUrW6krxYW1ldPV0PchDA3M246vV_bg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"momo14@gmail.com\",\n    \"bio\": \"this is my bio\",\n    \"image\": \"http://link.to/image.jpg\",\n    \"username\": \"momo14\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3334/api/user",
+							"host": [
+								"localhost"
+							],
+							"port": "3334",
+							"path": [
+								"api",
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "tag",
+			"item": [
+				{
+					"name": "get tags",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tagName\": \"react\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3335/api/tags",
+							"host": [
+								"localhost"
+							],
+							"port": "3335",
+							"path": [
+								"api",
+								"tags"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create tag",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tagName\": \"react\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3335/api/tags",
+							"host": [
+								"localhost"
+							],
+							"port": "3335",
+							"path": [
+								"api",
+								"tags"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "profile",
+			"item": [
+				{
+					"name": "follow user",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vbW8xNEBnbWFpbC5jb20iLCJzdWIiOiI2MDQ2NmQ2MGUwNzE0MzI0NDZhMmJkN2QiLCJpYXQiOjE2MTU0MDM3NjIsImV4cCI6MTYxNTQwNzM2Mn0.lnnFtI2OdZwBgETBKbR8ZIu98Sm6visplPZSAHl8iK0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3336/api/profiles/momo14/follow",
+							"host": [
+								"localhost"
+							],
+							"port": "3336",
+							"path": [
+								"api",
+								"profiles",
+								"momo14",
+								"follow"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user profile",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vbW8xNEBnbWFpbC5jb20iLCJzdWIiOiI2MTc1NDFjMGQ2OGQyYjVmY2ZhM2RlZGIiLCJpYXQiOjE2MzUwODAxNTQsImV4cCI6MTYzNTE2NjU1NH0.m6_isXL5HMB-YLAJpLpqR2aB3eUG3byk-7WeyRtyqFc",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3336/api/profiles/momo14",
+							"host": [
+								"localhost"
+							],
+							"port": "3336",
+							"path": [
+								"api",
+								"profiles",
+								"momo14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get profiles user follows",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vbW8xNEBnbWFpbC5jb20iLCJzdWIiOiI2MDQ2NmQ2MGUwNzE0MzI0NDZhMmJkN2QiLCJpYXQiOjE2MTU0MDM3NjIsImV4cCI6MTYxNTQwNzM2Mn0.lnnFtI2OdZwBgETBKbR8ZIu98Sm6visplPZSAHl8iK0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3336/api/profiles/momo14/follows",
+							"host": [
+								"localhost"
+							],
+							"port": "3336",
+							"path": [
+								"api",
+								"profiles",
+								"momo14",
+								"follows"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "article",
+			"item": [
+				{
+					"name": "get all articles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3337/api/articles",
+							"host": [
+								"localhost"
+							],
+							"port": "3337",
+							"path": [
+								"api",
+								"articles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create article",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vbW8xNEBnbWFpbC5jb20iLCJzdWIiOiI2MTc1NDFjMGQ2OGQyYjVmY2ZhM2RlZGIiLCJpYXQiOjE2MzUwNzQ1NDEsImV4cCI6MTYzNTE2MDk0MX0.JT-ndJggGot3tUrW6krxYW1ldPV0PchDA3M246vV_bg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"nx, nest and graphql realworld micro-services workshop 2021\",\n    \"body\": \"the post body\",\n    \"description\": \"the post desc\",\n    \"authorId\": \"617541c0d68d2b5fcfa3dedb\",\n    \"tagList\": [\"nx\", \"nest.js\", \"realworld\", \"graphql\", \"micro-services\", \"mongoose\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3337/api/articles",
+							"host": [
+								"localhost"
+							],
+							"port": "3337",
+							"path": [
+								"api",
+								"articles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get article by slug",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3337/api/articles/nx-nest-and-graphql-realworld-micro-services-workshop-2021-8n7udp",
+							"host": [
+								"localhost"
+							],
+							"port": "3337",
+							"path": [
+								"api",
+								"articles",
+								"nx-nest-and-graphql-realworld-micro-services-workshop-2021-8n7udp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update article",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vbW8xNEBnbWFpbC5jb20iLCJzdWIiOiI2MDQ2NmQ2MGUwNzE0MzI0NDZhMmJkN2QiLCJpYXQiOjE2MTUyMzYyODUsImV4cCI6MTYxNTIzOTg4NX0.WB18NJ3UkKufOL6bJFY2Y2usz5G5tOq1up2jQ2o0Ag4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"realworld micro-services workshop 2021\",\n    \"body\": \"the post body\",\n    \"description\": \"the post desc\",\n    \"tagList\": [\"nx\", \"nest.js\", \"realworld\", \"graphql\", \"micro-services\", \"mongoose\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3337/api/articles/nx-nest-and-graphql-realworld-micro-services-workshop-2021-bxx9mx",
+							"host": [
+								"localhost"
+							],
+							"port": "3337",
+							"path": [
+								"api",
+								"articles",
+								"nx-nest-and-graphql-realworld-micro-services-workshop-2021-bxx9mx"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get feed",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3337/api/articles/feed",
+							"host": [
+								"localhost"
+							],
+							"port": "3337",
+							"path": [
+								"api",
+								"articles",
+								"feed"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create comment",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vbW8xNEBnbWFpbC5jb20iLCJzdWIiOiI2MDQ2NmQ2MGUwNzE0MzI0NDZhMmJkN2QiLCJpYXQiOjE2MTU4OTcxOTUsImV4cCI6MTYxNTk4MzU5NX0.04E8Rz1z4yvS1HXRrC-OoTM1KSMz2Cd5AG6WMaMmzFw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"body\": \"Great post!\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3337/api/articles/realworld-micro-services-workshop-2021-ibnfzg/comments",
+							"host": [
+								"localhost"
+							],
+							"port": "3337",
+							"path": [
+								"api",
+								"articles",
+								"realworld-micro-services-workshop-2021-ibnfzg",
+								"comments"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"momo14@gmail.com\",\n    \"password\": \"momo14\"    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3334/api/auth/login",
+							"host": [
+								"localhost"
+							],
+							"port": "3334",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

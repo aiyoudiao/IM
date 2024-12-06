@@ -1,0 +1,5 @@
+.table {
+  @apply rounded-lg border-solid border;
+  min-width: 120px;
+  display: inline-block;
+}

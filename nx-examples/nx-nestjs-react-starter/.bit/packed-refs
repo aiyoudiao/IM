@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+41a2bb5dfe7f0dd30e4aebb278812e6627753698 refs/remotes/origin/dependabot/npm_and_yarn/eslint-plugin-react-7.31.10
+232a6ab4762b0bcf4f8db3b6e255c818a76dbe92 refs/remotes/origin/dependabot/npm_and_yarn/eslint-plugin-react-hooks-4.6.0
+90119af3b77abc8817ddbf0600730bb7a729de2f refs/remotes/origin/dependabot/npm_and_yarn/nestjs/platform-express-8.4.7
+9bcc25506d55a6c2a7925c4eeebd1279c3109dad refs/remotes/origin/dependabot/npm_and_yarn/nestjs/schematics-9.0.3
+355e4d7f5e6d0a5507bd800ecf518a554dfd55fa refs/remotes/origin/dependabot/npm_and_yarn/nrwl/workspace-15.0.13
+5e0bdb17db5c918923144cbe8c03bd880612abdd refs/remotes/origin/main

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "projects": {
+    "feature-article": "apps/feature-article",
+    "feature-profile": "apps/feature-profile",
+    "feature-tag": "apps/feature-tag",
+    "feature-user": "apps/feature-user",
+    "frontend": "apps/frontend",
+    "frontend-e2e": "apps/frontend-e2e",
+    "realworld-example-app": "apps/realworld-example-app",
+    "auth": "libs/auth",
+    "data-access": "libs/data-access",
+    "models": "libs/models",
+    "shared": "libs/shared"
+  }
+}

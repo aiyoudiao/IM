@@ -1,0 +1,71 @@
+.btn-icon-primary {
+  @apply text-color-primary;
+}
+
+.btn-icon-primary:hover {
+  @apply text-color-primary-hover;
+}
+
+.btn-icon-alert {
+  @apply text-color-alert;
+}
+
+.btn-icon-alert:hover {
+  @apply text-color-alert-hover;
+}
+
+.btn-base {
+  @apply p-2 rounded-md min-w-[36px];
+}
+
+.btn-default {
+  @apply bg-white btn-base;
+}
+
+.btn-default:hover {
+  @apply bg-gray-100;
+}
+
+.btn-primary {
+  @apply bg-color-primary text-white btn-base;
+}
+
+.btn-primary:hover {
+  @apply bg-color-primary-hover;
+}
+
+.btn-text {
+  @apply btn-base bg-white;
+}
+
+.btn-text:hover {
+  @apply bg-teal-50;
+}
+
+.btn-warn {
+  @apply btn-base bg-white text-color-alert;
+}
+
+.btn-warn:hover {
+  @apply bg-red-50;
+}
+
+.btn-alert {
+  @apply btn-base bg-color-warning text-white;
+}
+
+.btn-alert:hover {
+  @apply bg-color-alert;
+}
+
+.l {
+  @apply text-2xl;
+}
+
+.m {
+  @apply text-lg pt-2 pb-2 pl-3 pr-3;
+}
+
+.s {
+  @apply text-sm;
+}

@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled sorted 
+4279954be4fa883a4d0a909dfa66c1ac67d3415c refs/remotes/origin/graphql-workshop-0
+35472994cf25a5ebf5c6c566436efa5fe959632d refs/remotes/origin/graphql-workshop-1
+72c6151eb531140c08d8befda530f202b8c3e4ae refs/remotes/origin/graphql-workshop-2
+56eb508849b13e1942fda0cddc8cdfa45c2bffd0 refs/remotes/origin/graphql-workshop-3
+171d797409e12b22fc88e2d5c2d50e291a5e56f8 refs/remotes/origin/graphql-workshop-5
+c425b336aab78173f513bc1dd6f7bd5d355c2296 refs/remotes/origin/graphql-workshop-6
+61280300806b8138d839ace24845bdd5639a2dc1 refs/remotes/origin/graphql-workshop-7
+3d602e22008707effd4d28907de8d0cb422416d4 refs/remotes/origin/main

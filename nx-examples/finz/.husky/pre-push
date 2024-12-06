@@ -1,0 +1,1 @@
+npx vitest run ./apps/finz/src --environment jsdom

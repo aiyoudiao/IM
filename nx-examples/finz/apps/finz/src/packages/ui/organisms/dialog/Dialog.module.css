@@ -1,0 +1,19 @@
+.xl {
+  @apply min-w-[720px];
+}
+
+.l {
+  @apply min-w-[480px];
+}
+
+.m {
+  @apply min-w-[320px];
+}
+
+.title-info {
+  @apply text-color-primary;
+}
+
+.title-warning {
+  @apply text-color-alert;
+}

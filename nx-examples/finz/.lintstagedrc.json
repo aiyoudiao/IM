@@ -1,0 +1,4 @@
+{
+	"./apps/finz/**/*.{js,jsx,ts,tsx}": ["npx prettier --write", "npx eslint"],
+	"./apps/api/**/*.{js,jsx,ts,tsx}": ["npx prettier --write", "npx eslint"]
+}
