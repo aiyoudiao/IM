@@ -7,5 +7,52 @@
     "compilerOptions": {
       "module": "commonjs"
     }
+  },
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@non-im/backend-common": [
+        "packages/backend-common/src"
+      ],
+      "@non-im/backend-common/*": [
+        "packages/backend-common/src/*"
+      ],
+      "@non-im/backend-config": [
+        "packages/backend-config/src"
+      ],
+      "@non-im/backend-config/*": [
+        "packages/backend-config/src/*"
+      ],
+      "@non-im/backend-constants": [
+        "packages/backend-constants/src"
+      ],
+      "@non-im/backend-constants/*": [
+        "packages/backend-constants/src/*"
+      ],
+      "@non-im/backend-shared": [
+        "packages/backend-shared/src"
+      ],
+      "@non-im/backend-shared/*": [
+        "packages/backend-shared/src/*"
+      ],
+      "@non-im/backend-socket": [
+        "packages/backend-socket/src"
+      ],
+      "@non-im/backend-socket/*": [
+        "packages/backend-socket/src/*"
+      ],
+      "@non-im/backend-utils": [
+        "packages/backend-utils/src"
+      ],
+      "@non-im/backend-utils/*": [
+        "packages/backend-utils/src/*"
+      ],
+      "@non-im/backend-helper": [
+        "packages/backend-helper/src"
+      ],
+      "@non-im/backend-helper/*": [
+        "packages/backend-helper/src/*"
+      ]
+    }
   }
 }

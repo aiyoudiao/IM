@@ -1,0 +1,70 @@
+{
+  "projects": {
+    "backend-common": {
+      "type": "library",
+      "root": "packages/backend-common",
+      "entryFile": "index",
+      "sourceRoot": "packages/backend-common/src",
+      "compilerOptions": {
+        "tsConfigPath": "packages/backend-common/tsconfig.lib.json"
+      }
+    },
+    "backend-config": {
+      "type": "library",
+      "root": "packages/backend-config",
+      "entryFile": "index",
+      "sourceRoot": "packages/backend-config/src",
+      "compilerOptions": {
+        "tsConfigPath": "packages/backend-config/tsconfig.lib.json"
+      }
+    },
+    "backend-constants": {
+      "type": "library",
+      "root": "packages/backend-constants",
+      "entryFile": "index",
+      "sourceRoot": "packages/backend-constants/src",
+      "compilerOptions": {
+        "tsConfigPath": "packages/backend-constants/tsconfig.lib.json"
+      }
+    },
+    "backend-shared": {
+      "type": "library",
+      "root": "packages/backend-shared",
+      "entryFile": "index",
+      "sourceRoot": "packages/backend-shared/src",
+      "compilerOptions": {
+        "tsConfigPath": "packages/backend-shared/tsconfig.lib.json"
+      }
+    },
+    "backend-socket": {
+      "type": "library",
+      "root": "packages/backend-socket",
+      "entryFile": "index",
+      "sourceRoot": "packages/backend-socket/src",
+      "compilerOptions": {
+        "tsConfigPath": "packages/backend-socket/tsconfig.lib.json"
+      }
+    },
+    "backend-utils": {
+      "type": "library",
+      "root": "packages/backend-utils",
+      "entryFile": "index",
+      "sourceRoot": "packages/backend-utils/src",
+      "compilerOptions": {
+        "tsConfigPath": "packages/backend-utils/tsconfig.lib.json"
+      }
+    },
+    "backend-helper": {
+      "type": "library",
+      "root": "packages/backend-helper",
+      "entryFile": "index",
+      "sourceRoot": "packages/backend-helper/src",
+      "compilerOptions": {
+        "tsConfigPath": "packages/backend-helper/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}

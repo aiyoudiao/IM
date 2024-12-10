@@ -92,6 +92,7 @@
     "@ant-design/pro-components": "^2.7.19",
     "@nestjs/common": "^10.0.2",
     "@nestjs/core": "^10.0.2",
+    "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^10.0.2",
     "antd": "^5.21.2",
     "antd-style": "^3.7.0",
