@@ -2,7 +2,9 @@
   "name": "@root/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "workspace-generator": "nx workspace-generator"
+  },
   "private": true,
   "dependencies": {
     "react": "18.3.1",

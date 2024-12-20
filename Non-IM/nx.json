@@ -41,7 +41,8 @@
     {
       "plugin": "@nx/eslint/plugin",
       "options": {
-        "targetName": "lint"
+        "targetName": "lint",
+        "projects": "dependencies"
       }
     },
     {

@@ -149,7 +149,7 @@ export const getCustomTabs = () => {
     console.log('config, ', config);
     const { isKeep, keepElements, navigate, dropByCacheKey, local, activeKey } = config;
     return (
-      <div className="rumtime-keep-alive-tabs-layout ml-4" hidden={!isKeep}>
+      <div className="rumtime-keep-alive-tabs-layout tw-ml-2" hidden={!isKeep}>
         <Tabs
           hideAdd
           onChange={(key: string) => {

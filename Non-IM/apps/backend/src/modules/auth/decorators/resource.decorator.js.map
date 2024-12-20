@@ -1,0 +1,1 @@
+{"version":3,"file":"resource.decorator.js","sourceRoot":"","sources":["resource.decorator.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,WAAW,EAAE,MAAM,gBAAgB,CAAA;AAI7D,OAAO,EAAE,YAAY,EAAE,MAAM,kBAAkB,CAAA;AAK/C,MAAM,UAAU,QAAQ,CAAgC,MAAqB,EAAE,SAAwB;IACrG,OAAO,eAAe,CAAC,WAAW,CAAC,YAAY,EAAE,EAAE,MAAM,EAAE,SAAS,EAAE,CAAC,CAAC,CAAA;AAC1E,CAAC"}

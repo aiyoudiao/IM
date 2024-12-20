@@ -2,7 +2,9 @@
   "name": "@nestjs-microservices/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx build api-gateway"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^9.1.1",
